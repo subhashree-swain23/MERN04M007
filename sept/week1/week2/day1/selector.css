@@ -1,0 +1,143 @@
+/*combin selector
+1.descendant delector(space)
+2.child selector(>)
+3.adjacent selector(+)
+4.adjacent sibling selector(~)
+general sibling selector
+/*
+
+/*1=>Decendant selector - can target direct and indirect*/
+
+#parent p{
+ background-color: blueviolet;
+}
+
+#parent>p{
+    color: rgb(255, 196, 212);
+}
+
+#parent+p{
+    background-color: rgba(221, 215, 250, 0.716);
+}
+#parent~ p{
+    color: brown;
+}
+
+/* atrribute selector */
+
+h1[id="heading"]{
+    background-color: blueviolet;
+}
+
+/* 4.pesudo class selector 
+5.pesudo element selector */
+
+/* pesudo class selector
+=>hover
+=>active
+=>focous
+=>visitor
+=>first child
+=>last child
+=>nth child
+/*
+
+/*hover*/
+#box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+}
+
+#box:hover{
+    background-color: red;
+}
+
+#box:active{
+    background-color: yellow;
+}
+
+input:focus{
+    background-color: green;
+}
+
+a:visited{
+    background-color: red;
+}
+
+ul li:first-child{
+    background-color: aquamarine;
+}
+
+ul li:last-child{
+    background-color: red;
+}
+
+ul li:nth-child(2n+1){
+    background-color: brown;
+}
+
+/* an+b */
+ul li:nth-child(n+3):nth-child(-n+5){
+    background-color: aqua;
+}
+/* pseudo element selector 
+=>after 
+=>before
+=>first line
+=>first letter
+=>selected
+*/
+
+
+h2::after{
+    content:of the about section ;
+}
+
+h2::before{
+    background-color: blue;
+}
+
+#box::first-letter{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#box::selection{
+    background-color: chartreuse;
+}
+
+/* color
+1.RGB(red(255),green.blue)
+2.RGBA(red,green,blue,alpha)
+ */
+
+ h2{
+    color: rgb(255,255,100);
+ }
+
+ h3{
+    color: rgba(55,200,200,1);
+ }
+
+ h4{
+    color: #b00d0d;
+ }
+
+ .box-model{
+    width: 200px;
+    border: 2px solid green;
+
+   /* padding-top: 40px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 10px;*/
+
+    padding: 40px 30px 20px 10px;
+    border: 2px dashed blue;
+    border-top: 20px solid;
+
+    margin: 0 20px;
+ }
+ 
+
