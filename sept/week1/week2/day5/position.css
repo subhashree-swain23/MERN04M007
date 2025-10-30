@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+#box{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    /* color: rgb(68, 94, 94); */
+    /* box-shadow: 10px 10px 10px #db708ff2;+ */
+}
+
+/* #box h1{
+    font-size: 200px;
+    background-color: red; 
+    background-image: url(https://cdn.pixabay.com/photo/2025/09/09/18/12/moon-9824889_1280.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+    background-clip: text;
+    text-shadow: 8px 4px 34px black; 
+}*/
+
+
+/*  position
+=>absalute
+=>relative
+=>fixed
+=>sticky
+=>static */
+
+
+.container{
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+.container:nth-child(1){
+    background-color: red;
+    /* position: absolute;
+    top: 100%; */
+}
+
+.container:nth-child(2){
+    background-color: yellow;
+    /* position: relative;
+    top: 500px; */
+}
+
+.container:nth-child(3){
+    background-color: green;
+}
+
+.small{
+    
+}

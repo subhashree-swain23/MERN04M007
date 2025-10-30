@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+    <!-- <link rel="stylesheet" href="/oct/week3/Day5/tailwind.css" /> -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      nav {
+        width: 100vw;
+        height: 100px;
+        box-shadow: 2px 2px 5px black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo{
+        margin-left: 200px;
+      }
+
+      .logo p {
+        color: blue;
+        font-size: 1.2ec;
+      }
+
+      .logo p span{
+        color: red;
+      }
+      .list{
+        width: 60%;
+        height: 100%;
+      }
+      .list ul{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <h1 class="bg-red-900">Heading</h1> -->
+    <nav>
+      <div class="logo"><p>Qlith Innovation</p></div>
+      <div class="list">
+        <ul>
+          <li>Home</li>
+          <li>Service</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </nav>
+  </body>
+</html>

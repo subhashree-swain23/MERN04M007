@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 700px;
+    border: 1px solid black;
+    /* padding: 10px; */
+    position: relative;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    /* margin: auto; */
+    /* transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 10s; */
+    /* transform: translateX(100px); */
+    position: absolute;
+    /* left: 350px;
+    top: 350px; */
+}
+
+/* .box:hover{
+   transform: translateX(500px);
+  background-color: aqua; 
+} */
+
